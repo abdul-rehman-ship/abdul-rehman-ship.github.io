@@ -1,0 +1,15 @@
+@import url('./farmerHome.css');
+@import url('./farmerDiseases.css');
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.main_navbar_container{
+    z-index: 1;
+}
+.card .avatar {
+    height: 200px;
+    object-fit: cover;
+  }

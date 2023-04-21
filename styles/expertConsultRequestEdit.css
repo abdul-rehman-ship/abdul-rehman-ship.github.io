@@ -1,0 +1,30 @@
+@import url('./farmerHome.css');
+@import url('./farmerAddNew.css');
+.btn-success{
+    background-color: #4CAF50;
+    border: none;
+   
+}
+#signUpForm label{
+    width: 100% !important;
+    text-align: left;
+    color: #a19e9e;
+    margin-left: 2px;
+}
+textarea{
+    width: 100%;
+    background-color:#eeeeee ;
+    border: none;
+    overflow: auto;
+    padding: 5px;
+    margin-bottom: 1rem;
+}
+#images,#images2{
+    width: 100%;
+    
+    background-color:#eeeeee ;
+    border: none;
+    overflow: auto;
+    padding: 5px;
+    margin-bottom: 1rem;
+}

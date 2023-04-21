@@ -1,0 +1,80 @@
+@import url('./farmerHome.css');
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.post{
+   
+    padding: 3px ;
+    
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+.card-text{
+    
+   word-break: keep-all;
+    
+}
+.post .btn{
+    border: 1px solid #e63b62 !important;
+    
+    color: #e63b62;
+}
+.post .btn:hover{
+    background-color: #e63b62 !important;
+    color: #fff;
+}
+.card{
+    height: 100% !important;
+    border: 2px solid #e63b62;
+    padding: 2px;
+}
+
+.card-img{
+    width: 100%;
+    height: 23rem;
+    
+    
+}
+.add_new{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    
+}
+.add_new button{
+    width: 11rem;
+    height: 3rem;
+    
+    background-color: #fff;
+    color: #e63b62;
+    border: 1px solid #e63b62;
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+    
+    
+    
+
+}
+.add_new button i{
+    font-size: 2rem;
+    transform: translateY(-2px);
+    
+}
+.add_new button:hover{
+   background-color: #e63b62;
+   color: #fff;
+}
+.add_new a{
+    text-decoration: none;
+}
+  
