@@ -1,1 +1,3 @@
-# abdul-rehman-ship.github.io
+# visit client side by https://abdul-rehman-ship.github.io/index.html
+# visit admin side https://abdul-rehman-ship.github.io/admin.html
+[Link to example](example.md)
