@@ -100,12 +100,12 @@ document.getElementById('loading').style.display="flex"
               }, (error) => {
                 console.log(error)
               }, () => {    
-                getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+                getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
                     
                     userData.images.push(downloadURL)
                     if(i==signUpForm['images'].files.length-1){
                       
-                      addDoc(collection(db, "posts"), {...userData}).then((docRef) => {
+                    await  addDoc(collection(db, "posts"), {...userData}).then((docRef) => {
                         document.getElementById('loading').style.display="none"
         
                         alert("Post  added successfully")
